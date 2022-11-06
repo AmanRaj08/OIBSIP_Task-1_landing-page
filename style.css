@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    width: 100%;
+    height: 500px;
+    background: url('image/top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    margin-left: 100px;
+    margin-right: 190px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+    height: 50px;
+}
+.nav h2{
+    color: rgb(227, 80, 161);
+    cursor: pointer;
+}
+.nav i{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+}
+.contain{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.about{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn1{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.btn1 button{
+    cursor: pointer;
+    background-color: #138A60;
+    display: block;
+    margin: 15px auto;
+    width: fit-content;
+    border: 1px solid #138A60;
+    padding: 14px 35px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: #fff; 
+}
+.btn1 :hover{
+    background-color: #fff;
+    color:  #138A60; 
+}
+.add{
+    text-align: center;
+    color: #000000;
+    font-size: 9px;
+}
+.container{
+    padding: 115px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.about-col-1{
+    flex-basis: 40%;
+
+}
+.about-col-1 img{
+    width: 80%;
+    
+}
+.about-col-2{
+    flex-basis: 35%;
+}
+.about-col-2 p{
+    margin-top: 10px;
+}
+.about-col-2 button{
+    cursor: pointer;
+    background-color: #138A60;
+    display: block;
+    margin: 15px 0px;
+    width: fit-content;
+    border: 1px solid #138A60;
+    padding: 14px 35px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.about-col-2 button:hover{
+    background-color: #fff;
+    color:  #138A60;
+}
+.app{
+     display: flex;
+     margin-top: 10px;
+}
+.fa-brands{
+    margin-right: 10px;
+}
+.window{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.window:hover{
+    transform: translateY(-5px);
+}
+.apple{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.apple:hover{
+    transform: translateY(-5px);
+}
+.and{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.and:hover{
+    transform: translateY(-5px);
+}
+.ios{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.ios:hover{
+    transform: translateY(-5px);
+}
+.lin{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.lin:hover{
+    transform: translateY(-5px);
+}
+.all{
+    
+    margin-top: 10px;
+    font-size: 12px;
+   
+}
+.all a{
+    color: #138A60;
+}
+.service{
+    margin-left: 35px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+.d1{
+    text-align: center;
+}
+.d2{
+    text-align: center;
+}
+.d3{
+    text-align: center;
+}
+.d1 img{
+    width: 250px;
+    margin-bottom: 30px;
+}
+.d2 img{
+    width: 250px;
+    margin-bottom: 46px;
+}
+.d3 img{
+    width: 250px;
+    margin-bottom: 30px;
+}
+.adv{
+    margin-top: 80px;
+    text-align: center;
+}
+.adv a{
+    color: #138A60;
+}
+.foot{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+    background: url('image/p7.png');
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.foot h1{
+    text-align: center;
+    font-size: 50px;
+}
+.end{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.end a{
+    color: #138A60;
+}
+.left{
+    margin-left: 119px;
+}
+.right{
+    margin-left: 130px;
+    margin-top: 150px;
+}
+.right h1{
+    font-size: 60px;
+  margin-bottom: 10px;
+}
+.right p{
+    margin-left: 14px;
+   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 724px){
+    .nav{
+        margin-left: 60px;
+        margin-right: 100px;
+    } 
+    .contain{
+        font-size: 20px;
+    } 
+    .about{
+        font-size: 14px;
+    }   
+}
+@media only screen and (max-width: 504px){
+    .nav h2 {
+        font-size: 20px;
+    }
+    .nav a {
+        font-size: 10px;
+    }
+    .nav{
+        margin-left: 0px;
+        margin-right: 10px;
+    } 
+    .contain{
+        font-size: 12px;
+    }  
+    .about{
+        font-size: 8px;
+    }   
+    .add{
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 909px){
+    .about-col-2 {
+        font-size: 12px;
+    }
+    .about-col-2 button {
+        font-size: 11px;
+        margin: 5px 0px;
+        padding: 8px 16px;
+    }
+
+}
+@media only screen and (max-width: 742px){
+    .about-col-2 button {
+        font-size: 11px;
+        margin: 5px 0px;
+        padding: 8px 16px;
+    }
+    .container {
+        padding: 60px;
+    }
+
+}
+@media only screen and (max-width: 635px){
+    .container {
+        padding: 20px;
+    }
+    .head {
+        height: 443px;
+    }
+    .d1 img {
+        width: 200px;
+    }
+    .d1 {
+        margin-bottom: 20px;
+    }
+    .d2 img {
+        width: 200px;
+    }
+    .d2 {
+        margin-bottom: 20px;
+    }
+    .d3 img {
+        width: 200px;
+    }
+    .d3 {
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 635px){
+    .about-col-2 {
+        font-size: 10px;
+    }
+    .end {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 880px){
+    .service {
+        font-size: 12px;
+    }
+    .services-list {
+        grid-gap: 0px;
+    }
+    .foot {
+        height: 400px;
+    }
+    .foot h1 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .head {
+        height: 370px
+    }
+
+    .about-col-2 {
+        font-size: 6px;
+    }
+    .about-col-2 button {
+        font-size: 7px;
+    }
+    .service {
+        margin-left: 30px;
+        font-size: 10px;
+    }
+    
+
+}
+@media only screen and (max-width: 1200px){
+    .right h1 {
+    font-size: 40px;
+       }
+       .foot h1 {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .right h1 {
+    font-size: 30px;
+       }
+       .foot h1 {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 937px){
+    .foot {
+        height: 450px;
+    }
+    .foot h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 880px){
+    .foot {
+        height: 400px;
+    }
+    .foot h1 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .foot h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 690px){
+    .foot h1 {
+        font-size: 20px;
+    }
+    .right {
+        margin-top: 60px;
+    }
+    .left {
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .foot {
+        height: 200px;
+    }
+    .foot h1 {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .foot {
+        height: 150px;
+    }
+    .foot h1 {
+        font-size: 8px;
+    }
+    .right p {
+        margin-left: -2px;
+        margin-bottom: 4px;
+        font-size: 8px;
+    }
+    .right {
+        margin-top: 6px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .left {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 368px){
+    .foot {
+        height: 115px;
+    }
+    .left {
+        margin-left: 29px;
+    }
+}
